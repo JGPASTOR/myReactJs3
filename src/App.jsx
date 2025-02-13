@@ -1,5 +1,5 @@
-import Counter from "./components/counter"; 
-import Calculator from "./components/calculator";
+import Counter from "./components/Counter"; 
+import Calculator from "./components/Calculator";
 import './App.css';
 
 function App() {
