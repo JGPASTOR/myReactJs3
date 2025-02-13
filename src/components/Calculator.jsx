@@ -10,7 +10,7 @@ function Calculator() {
       setResult("");
     } else if (value === "=") {
       try {
-        setResult(eval(expression)); // Using eval to calculate the result
+        setResult(eval(expression));
       } catch {
         setResult("Error");
       }
