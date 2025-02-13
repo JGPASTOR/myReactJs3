@@ -23,7 +23,7 @@ function Calculator() {
     <div className="calculator">
       <h2>Basic Calculator</h2>
       <div className="output">
-        <span className="result">{result || expression || "0"}</span>
+        <span className="result">{result || expression || ""}</span>
       </div>
       <div className="buttons">
         {["1", "2", "3", "+", "4", "5", "6", "-", "7", "8", "9", "*", "C", "0", "=", "/"].map(
